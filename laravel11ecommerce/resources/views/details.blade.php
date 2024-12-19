@@ -62,36 +62,13 @@
 
             <div
               class="product-single__prev-next d-flex align-items-center justify-content-between justify-content-md-end flex-grow-1">
-              <a href="#" class="text-uppercase fw-medium"><svg width="10" height="10" viewBox="0 0 25 25"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <use href="#icon_prev_md" />
-                </svg><span class="menu-link menu-link_us-s">Prev</span></a>
-              <a href="#" class="text-uppercase fw-medium"><span class="menu-link menu-link_us-s">Next</span><svg
-                  width="10" height="10" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-                  <use href="#icon_next_md" />
-                </svg></a>
+              
             </div><!-- /.shop-acs -->
           </div>
           <h1 class="product-single__name">{{$product->name}}</h1>
           <div class="product-single__rating">
-            <div class="reviews-group d-flex">
-              <svg class="review-star" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_star" />
-              </svg>
-              <svg class="review-star" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_star" />
-              </svg>
-              <svg class="review-star" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_star" />
-              </svg>
-              <svg class="review-star" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_star" />
-              </svg>
-              <svg class="review-star" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_star" />
-              </svg>
-            </div>
-            <span class="reviews-note text-lowercase text-secondary ms-1">8k+ reviews</span>
+            
+            
           </div>
           <div class="product-single__price">
             <span class="current-price"> 
@@ -124,17 +101,7 @@
           </form>
           @endif
           <div class="product-single__addtolinks">
-            <a href="#" class="menu-link menu-link_us-s add-to-wishlist"><svg width="16" height="16" viewBox="0 0 20 20"
-                fill="none" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_heart" />
-              </svg><span>Add to Wishlist</span></a>
-            <share-button class="share-button">
-              <button class="menu-link menu-link_us-s to-share border-0 bg-transparent d-flex align-items-center">
-                <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <use href="#icon_sharing" />
-                </svg>
-                <span>Share</span>
-              </button>
+           
               <details id="Details-share-template__main" class="m-1 xl:m-1.5" hidden="">
                 <summary class="btn-solid m-1 xl:m-1.5 pt-3.5 pb-3 px-5">+</summary>
                 <div id="Article-share-template__main"
@@ -182,15 +149,7 @@
             <a class="nav-link nav-link_underscore active" id="tab-description-tab" data-bs-toggle="tab"
               href="#tab-description" role="tab" aria-controls="tab-description" aria-selected="true">Description</a>
           </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link nav-link_underscore" id="tab-additional-info-tab" data-bs-toggle="tab"
-              href="#tab-additional-info" role="tab" aria-controls="tab-additional-info"
-              aria-selected="false">Additional Information</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link nav-link_underscore" id="tab-reviews-tab" data-bs-toggle="tab" href="#tab-reviews"
-              role="tab" aria-controls="tab-reviews" aria-selected="false">Reviews (2)</a>
-          </li>
+          
         </ul>
         <div class="tab-content">
           <div class="tab-pane fade show active" id="tab-description" role="tabpanel"
